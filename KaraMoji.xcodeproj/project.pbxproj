@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EA8FF46CD33B7F7005A6361 /* Pods_KaraMoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101C0B0ADE8E12BE7BFFB403 /* Pods_KaraMoji.framework */; };
 		D1A04DB72CE19D8C00A4FB1D /* KaraMojiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A04DB62CE19D8C00A4FB1D /* KaraMojiApp.swift */; };
-		D1A04DB92CE19D8C00A4FB1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A04DB82CE19D8C00A4FB1D /* ContentView.swift */; };
 		D1A04DBB2CE19D8D00A4FB1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A04DBA2CE19D8D00A4FB1D /* Assets.xcassets */; };
 		D1A04DBE2CE19D8D00A4FB1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A04DBD2CE19D8D00A4FB1D /* Preview Assets.xcassets */; };
+		D1A04DCB2CE19E1200A4FB1D /* KaraMojiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A04DCA2CE19E1200A4FB1D /* KaraMojiRepository.swift */; };
+		D1A04DCD2CE19E3700A4FB1D /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A04DCC2CE19E3700A4FB1D /* EditView.swift */; };
+		D1A04DCF2CE19E5400A4FB1D /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A04DCE2CE19E5400A4FB1D /* EditViewModel.swift */; };
+		D1A04DD12CE19E7100A4FB1D /* EditModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A04DD02CE19E7100A4FB1D /* EditModel.swift */; };
+		D1A04DDE2CE1A59B00A4FB1D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A04DDD2CE1A59B00A4FB1D /* View.swift */; };
+		D1A04DE02CE1A5B800A4FB1D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A04DDF2CE1A5B800A4FB1D /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101C0B0ADE8E12BE7BFFB403 /* Pods_KaraMoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaraMoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1804D928F97AEAE1B58D81E8 /* Pods-KaraMoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaraMoji.release.xcconfig"; path = "Target Support Files/Pods-KaraMoji/Pods-KaraMoji.release.xcconfig"; sourceTree = "<group>"; };
+		B4C79AA2A9E2254A8DF04F95 /* Pods-KaraMoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaraMoji.debug.xcconfig"; path = "Target Support Files/Pods-KaraMoji/Pods-KaraMoji.debug.xcconfig"; sourceTree = "<group>"; };
 		D1A04DB32CE19D8C00A4FB1D /* KaraMoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaraMoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A04DB62CE19D8C00A4FB1D /* KaraMojiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraMojiApp.swift; sourceTree = "<group>"; };
-		D1A04DB82CE19D8C00A4FB1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1A04DBA2CE19D8D00A4FB1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1A04DBD2CE19D8D00A4FB1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1A04DCA2CE19E1200A4FB1D /* KaraMojiRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraMojiRepository.swift; sourceTree = "<group>"; };
+		D1A04DCC2CE19E3700A4FB1D /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		D1A04DCE2CE19E5400A4FB1D /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
+		D1A04DD02CE19E7100A4FB1D /* EditModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditModel.swift; sourceTree = "<group>"; };
+		D1A04DDD2CE1A59B00A4FB1D /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		D1A04DDF2CE1A5B800A4FB1D /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA8FF46CD33B7F7005A6361 /* Pods_KaraMoji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		619D02F8A717CC897437EB52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101C0B0ADE8E12BE7BFFB403 /* Pods_KaraMoji.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		765CFD1472A95E1BECB42E2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4C79AA2A9E2254A8DF04F95 /* Pods-KaraMoji.debug.xcconfig */,
+				1804D928F97AEAE1B58D81E8 /* Pods-KaraMoji.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D1A04DAA2CE19D8C00A4FB1D = {
 			isa = PBXGroup;
 			children = (
 				D1A04DB52CE19D8C00A4FB1D /* KaraMoji */,
 				D1A04DB42CE19D8C00A4FB1D /* Products */,
+				765CFD1472A95E1BECB42E2B /* Pods */,
+				619D02F8A717CC897437EB52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				D1A04DB62CE19D8C00A4FB1D /* KaraMojiApp.swift */,
-				D1A04DB82CE19D8C00A4FB1D /* ContentView.swift */,
+				D1A04DCC2CE19E3700A4FB1D /* EditView.swift */,
+				D1A04DCE2CE19E5400A4FB1D /* EditViewModel.swift */,
+				D1A04DD02CE19E7100A4FB1D /* EditModel.swift */,
+				D1A04DCA2CE19E1200A4FB1D /* KaraMojiRepository.swift */,
+				D1A04DDD2CE1A59B00A4FB1D /* View.swift */,
+				D1A04DDF2CE1A5B800A4FB1D /* Image.swift */,
 				D1A04DBA2CE19D8D00A4FB1D /* Assets.xcassets */,
 				D1A04DBC2CE19D8D00A4FB1D /* Preview Content */,
 			);
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1A04DC12CE19D8D00A4FB1D /* Build configuration list for PBXNativeTarget "KaraMoji" */;
 			buildPhases = (
+				E6E622063AD2F9587B9C36F5 /* [CP] Check Pods Manifest.lock */,
 				D1A04DAF2CE19D8C00A4FB1D /* Sources */,
 				D1A04DB02CE19D8C00A4FB1D /* Frameworks */,
 				D1A04DB12CE19D8C00A4FB1D /* Resources */,
+				90DDAAE7931F1F7F5D706DC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +152,9 @@
 				Base,
 			);
 			mainGroup = D1A04DAA2CE19D8C00A4FB1D;
+			packageReferences = (
+				D1A04DD22CE19ED400A4FB1D /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = D1A04DB42CE19D8C00A4FB1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,13 +176,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90DDAAE7931F1F7F5D706DC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaraMoji/Pods-KaraMoji-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaraMoji/Pods-KaraMoji-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaraMoji/Pods-KaraMoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E622063AD2F9587B9C36F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaraMoji-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1A04DAF2CE19D8C00A4FB1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1A04DB92CE19D8C00A4FB1D /* ContentView.swift in Sources */,
+				D1A04DDE2CE1A59B00A4FB1D /* View.swift in Sources */,
+				D1A04DCF2CE19E5400A4FB1D /* EditViewModel.swift in Sources */,
+				D1A04DCB2CE19E1200A4FB1D /* KaraMojiRepository.swift in Sources */,
+				D1A04DD12CE19E7100A4FB1D /* EditModel.swift in Sources */,
+				D1A04DE02CE1A5B800A4FB1D /* Image.swift in Sources */,
 				D1A04DB72CE19D8C00A4FB1D /* KaraMojiApp.swift in Sources */,
+				D1A04DCD2CE19E3700A4FB1D /* EditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +273,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +336,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -266,6 +357,7 @@
 		};
 		D1A04DC22CE19D8D00A4FB1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C79AA2A9E2254A8DF04F95 /* Pods-KaraMoji.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +387,7 @@
 		};
 		D1A04DC32CE19D8D00A4FB1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1804D928F97AEAE1B58D81E8 /* Pods-KaraMoji.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -344,6 +437,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1A04DD22CE19ED400A4FB1D /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.10;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = D1A04DAB2CE19D8C00A4FB1D /* Project object */;
 }

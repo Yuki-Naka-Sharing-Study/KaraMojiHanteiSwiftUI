@@ -1,0 +1,6 @@
+framework module Pods_KaraMoji {
+  umbrella header "Pods-KaraMoji-umbrella.h"
+
+  export *
+  module * { export * }
+}
